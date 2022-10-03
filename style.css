@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+:root {
+  --bs-primary-rgb: 168, 235, 18;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.profile {
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    #a8eb12,
+    #00bf72,
+    #008793,
+    #004d7a,
+    #051937
+  );
+  min-height: 400px;
+  text-align: center;
+}
+
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    #a8eb12,
+    #00bf72,
+    #008793,
+    #004d7a,
+    #051937
+  );
+  min-height: 200px;
+}
+
+.profile .me {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile .icon {
+  font-size: 40px;
+}
+
+section {
+  min-height: 400px;
+}
+
+section.primary {
+  background: #fafafa;
+}
+
+section.secondary {
+  background: #e9e9e9;
+}
+
+#skills img {
+  width: 200px;
+}
